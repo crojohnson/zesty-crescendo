@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<script src="jquery-2.1.4.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<script>
+function naviGate(int) {
+  if (window.XMLHttpRequest) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() {
+      if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+        document.getElementById("viewer").innerHTML = xmlHttp.responseText;
+      }
+    };
+    xmlHttp.open("GET", "viewer.php?view=" + int, true);
+    xmlHttp.send();
+  }
+}
+
+function startUp() {
+    document.getElementById("viewer").innerHTML = "<img src='bougainvillea.jpg' />";
+    document.location.hash = "";
+}
+
+$(document).ready(function() {
+    $(document).on('click', '#row1', function() {
+        document.location.hash = "pt0";
+        naviGate(0);
+    });
+    $(document).on('click', '#row2', function() {
+        document.location.hash = "pt1";
+        naviGate(1);
+    });
+    $(document).on('click', '#row3', function() {
+        document.location.hash = "pt2";
+        naviGate(2);
+    });
+    $(document).on('click', '#row4', function() {
+        document.location.hash = "pt3";
+        naviGate(3);
+    });
+    $(document).on('click', '#row5', function() {
+        document.location.hash = "pt4";
+        naviGate(4);
+    });
+    $(document).on('click', '#row6', function() {
+        document.location.hash = "pt5";
+        naviGate(5);
+    });
+    $(document).on('click', '#row7', function() {
+        document.location.hash = "pt6";
+        naviGate(6);
+    });
+    $(document).on('click', '.jumbotron', function() {
+        startUp();
+    });
+  });
+</script>
+
+<style>
+#row1, #row2, #row3, #row4, #row5, #row6, #row7, .jumbotron {
+    cursor: pointer;
+}
+img {
+margin-bottom: 50px;
+}
+</style>
+
+</head>
+
+<body onload="document.location.hash ? naviGate(document.location.hash.charAt(3)) : startUp();">
+    
+<div class="container">
+
+<div class="jumbotron">
+  <h1>The Wedding of Zannie and Corey</h1>
+</div>
+
+<div class="row">
+  <div class="col-sm-3">
+    <table class="table table-condensed table-hover">
+        <tr><td><div id="row1">Directions & Parking</div></td></tr>
+        <tr><td><div id="row2">Hotels</div></td></tr>
+        <tr><td><div id="row3">Local Attractions</div></td></tr>
+        <tr><td><div id="row4">About Us</div></td></tr>
+        <tr><td><div id="row5">Who's Who</div></td></tr>
+        <tr><td><div id="row6">FAQ</div></td></tr>
+        <tr><td><div id="row7">Registry</div></td></tr>
+    </table>
+  </div>
+  <div class="col-sm-9">
+    <div id="viewer"></div>
+  </div>
+</div>
+
+</div>
+
+</body>
+
+</html>
