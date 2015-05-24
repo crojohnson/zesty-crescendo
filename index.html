@@ -29,35 +29,22 @@ function startUp() {
     document.location.hash = "";
 }
 
+function clearTabs() {
+    for (var j; j < $(".butn").length; j++) {
+        $(this).removeClass('emph');
+    }
+}
+
 $(document).ready(function() {
-    $(document).on('click', '#row1', function() {
-        document.location.hash = "pt0";
-        naviGate(0);
-    });
-    $(document).on('click', '#row2', function() {
-        document.location.hash = "pt1";
-        naviGate(1);
-    });
-    $(document).on('click', '#row3', function() {
-        document.location.hash = "pt2";
-        naviGate(2);
-    });
-    $(document).on('click', '#row4', function() {
-        document.location.hash = "pt3";
-        naviGate(3);
-    });
-    $(document).on('click', '#row5', function() {
-        document.location.hash = "pt4";
-        naviGate(4);
-    });
-    $(document).on('click', '#row6', function() {
-        document.location.hash = "pt5";
-        naviGate(5);
-    });
-    $(document).on('click', '#row7', function() {
-        document.location.hash = "pt6";
-        naviGate(6);
-    });
+    for (var i = 0; i < $(".butn").length; i++) {
+        $(document).on('click', '.butn', function() {
+            var x = $(this).attr('id').charAt(3);
+            document.location.hash = "pt" + x;
+            $(".emph").removeClass('emph');
+            $(this).addClass('emph');
+            naviGate(x);
+        });
+    }
     $(document).on('click', '.jumbotron', function() {
         startUp();
     });
@@ -65,11 +52,14 @@ $(document).ready(function() {
 </script>
 
 <style>
-#row1, #row2, #row3, #row4, #row5, #row6, #row7, .jumbotron {
+.butn, .jumbotron {
     cursor: pointer;
 }
-img {
+#viewer {
 margin-bottom: 50px;
+}
+.emph {
+    background-color: #eeeeee;
 }
 </style>
 
@@ -85,14 +75,14 @@ margin-bottom: 50px;
 
 <div class="row">
   <div class="col-sm-3">
-    <table class="table table-condensed table-hover">
-        <tr><td><div id="row1">Directions & Parking</div></td></tr>
-        <tr><td><div id="row2">Hotels</div></td></tr>
-        <tr><td><div id="row3">Local Attractions</div></td></tr>
-        <tr><td><div id="row4">About Us</div></td></tr>
-        <tr><td><div id="row5">Who's Who</div></td></tr>
-        <tr><td><div id="row6">FAQ</div></td></tr>
-        <tr><td><div id="row7">Registry</div></td></tr>
+    <table id="nav" class="table table-condensed table-hover">
+        <tr><td id="row0" class="butn">Directions & Parking</td></tr>
+        <tr><td id="row1" class="butn">Hotels</td></tr>
+        <tr><td id="row2" class="butn">Local Attractions</td></tr>
+        <tr><td id="row3" class="butn">About Us</td></tr>
+        <tr><td id="row4" class="butn">Who's Who</td></tr>
+        <tr><td id="row5" class="butn">FAQ</td></tr>
+        <tr><td id="row6" class="butn">Registry</td></tr>
     </table>
   </div>
   <div class="col-sm-9">
