@@ -26,6 +26,7 @@ function naviGate(int) {
 
 function startUp() {
     document.getElementById("viewer").innerHTML = "<img src='bougainvillea.jpg' class='img-responsive' alt='portrait in mexico' />";
+    $(".emph").removeClass('emph');
     document.location.hash = "";
 }
 
@@ -39,7 +40,7 @@ function clearTabs() {
 $(document).ready(function() {
     for (var i = 0; i < $(".butn").length; i++) {
         $(document).on('click', '.butn', function() {
-            var x = $(this).attr('id').charAt(3);
+            var x = $(this).attr('id').charAt(2);
             document.location.hash = "pt" + x;
             $(".emph").removeClass('emph');
             $(this).addClass('emph');
@@ -77,13 +78,14 @@ margin-bottom: 50px;
 <div class="row">
   <div class="col-sm-3">
     <table id="nav" class="table table-condensed table-hover">
-        <tr><td id="row0" class="butn">Directions & Parking</td></tr>
-        <tr><td id="row1" class="butn">Hotels</td></tr>
-        <tr><td id="row2" class="butn">Local Attractions</td></tr>
-        <tr><td id="row3" class="butn">About Us</td></tr>
-        <tr><td id="row4" class="butn">Who's Who</td></tr>
-        <tr><td id="row5" class="butn">FAQ</td></tr>
-        <tr><td id="row6" class="butn">Registry</td></tr>
+        <tr><td id="pt0" class="butn">Directions & Parking</td></tr>
+        <tr><td id="pt1" class="butn">Hotels</td></tr>
+        <tr><td id="pt2" class="butn">Local Attractions</td></tr>
+        <tr><td id="pt3" class="butn">About Us</td></tr>
+        <tr><td id="pt4" class="butn">Who's Who</td></tr>
+        <tr><td id="pt5" class="butn">FAQ</td></tr>
+        <tr><td id="pt6" class="butn">Registry</td></tr>
+        <tr><td id="pt7" class="butn">R.S.V.P.</td></tr>
     </table>
   </div>
   <div class="col-sm-9">
