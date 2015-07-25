@@ -6,7 +6,7 @@ $pt0 = <<<PT0
 <div class="row">
 <div class="col-xs-4">
 <address>
-  <strong><a href="http://www.falkirkculturalcenter.org/">Falkirk Cultural Center</a></strong><br>
+  <strong><a href="http://www.falkirkculturalcenter.org/" target="_blank">Falkirk Cultural Center</a></strong><br>
   1408 Mission Avenue at "E" Street<br>
   San Rafael, CA 94901<br>
   <abbr title="Phone">P:</abbr> (415) 485-3328
@@ -35,12 +35,13 @@ PT1;
 //local attractions
 $pt2 = <<<PT2
 <p><a href="http://guides.milespartnership.com/sf/vpg/current/" target="_blank">
-Official San Francisco Visitors Planning Guide 2015</p>
+Official San Francisco Visitors Planning Guide 2015</a></p>
 <p>We recommend traveling around San Francisco by public transportation. The easiest way to pay is with a 
 <a href="https://www.clippercard.com">Clipper Card</a>, which you can use on all local transporation systems, 
 including <a href="http://www.sfmta.com/">Muni</a> and <a href="http://www.sfmta.com/getting-around/transit/how-ride/how-to-cable-cars">cable 
 cars</a> to get around San Francisco, <a href="http://www.actransit.org/">AC Transit</a> to get around the East 
 Bay, and <a href="http://www.bart.gov/">BART</a> to get between cities and to the airport.</p>
+<p>For taxi service, we recommend the <a href="http://www.flywheel.com" target="_blank">Flywheel App</a> for iPhone or Android.</p>
 <p><a href="http://www.sanfrancisco.travel/transportation">General Guide to Bay Area Transportation</a></p>
 PT2;
 
@@ -64,18 +65,19 @@ $pt5 = <<<PT5
   be discreet and mindful of the experience of others when taking them. Our photographer has not asked us to 
   restrict other photography, but we ask that guests are careful not to make her work more difficult. Watch 
   this space for the best way to share your pictures!</dd>
+  <dt>Registry?</dt>
+  <dd>We've been grown ups for quite some time now, and we really, really don't need anything. But if you feel 
+  exceptionally compelled, we're registered at <a href="http://www.popeyes.com" target="_blank">Popeyes House of 
+  Chicken</a>.</dd>
 </dl>
 PT5;
 
-//registry
+//r.s.v.p.
 $pt6 = <<<PT6
 PT6;
 
-//r.s.v.p.
-$pt7 = <<<PT7
-PT7;
 
-$views = array($pt0,$pt1,$pt2,$pt3,$pt4,$pt5,$pt6,$pt7);
+$views = array($pt0,$pt1,$pt2,$pt3,$pt4,$pt5,$pt6);
 
 echo $views[$view];
 ?>
