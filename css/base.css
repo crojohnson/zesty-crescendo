@@ -1,7 +1,103 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  background-color: #b6c79d;
+  height: 100%;
+  min-height: 100%;
+}
+
 dd {
   margin-bottom: 10px;
 }
 
 dt {
   font-size: 20px;
+}
+
+#nav {
+  position: fixed;
+  width: 100%;
+	float: left;
+	margin: 0 0 1em 0;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+	z-index: 1;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+#nav ul {
+	list-style: none;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0; 
+}
+
+#nav li {
+	float: left; 
+}
+
+#nav li span {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	color: #069;
+	border-right: 1px solid #ccc;
+}
+
+.butn {
+  cursor: pointer;
+  display: block;
+  float: left;
+}
+
+#viewer {
+  height: 100%;
+  min-height: 100%;
+}
+
+.emph {
+  background-color: #dddddd;
+}
+
+#header {
+  position: fixed;
+  z-index: -1;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  min-height: 1000px;
+  border-radius: 25px 25px 0px 0px;
+  border: 1px solid black;
+  padding: 50px;
+  position: relative;
+  top: 150px;
+  z-index: 0;
+  background-color: white;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+.cent {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 80px;
+}
+
+#heroshot {
+  float: left;
+  margin-right: 40px;
 }

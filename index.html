@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/base.css">
+<link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 
 <script src="jquery-2.1.4.min.js"></script>
 <script src="bootstrap.min.js"></script>
@@ -26,7 +28,15 @@ function naviGate(int) {
 }
 
 function startUp() {
-    document.getElementById("viewer").innerHTML = "<img src='bougainvillea.jpg' class='img-responsive' alt='portrait in mexico' />";
+    var x = "<div class='cent'><h2>May 21st, 2016</h2></div><div class='cent'>5:00PM</div>";
+    x += "<div class='cent'><h1>Zannie &amp; Corey</h1></div>";
+    x += "<div class='cent'><h3>are getting hitched!</h3></div><br />";
+    x += "<img src='heroshot.jpg' class='img-responsive' id='heroshot' alt='portrait in mexico' />";
+    x += "<p>Welcome! We hope you will be able to join us to celebrate our marriage on May 21st at 5pm. ";
+    x += "We will have a brief ceremony in the rose garden, followed by dinner and drinks on the veranda. ";
+    x += "We hope you will find this site informative--but it is still in progress, so please check back ";
+    x += "again as the date approaches to get the latest!</p>";
+    document.getElementById("viewer").innerHTML = x;
     $(".emph").removeClass('emph');
     document.location.hash = "";
 }
@@ -42,57 +52,47 @@ $(document).ready(function() {
     for (var i = 0; i < $(".butn").length; i++) {
         $(document).on('click', '.butn', function() {
             var x = $(this).attr('id').charAt(2);
-            document.location.hash = "pt" + x;
-            $(".emph").removeClass('emph');
-            $(this).addClass('emph');
-            naviGate(x);
+            if (x != "m") {
+              document.location.hash = "pt" + x;
+              $(".emph").removeClass('emph');
+              $(this).addClass('emph');
+              naviGate(x);
+            }
         });
     }
-    $(document).on('click', '.jumbotron', function() {
+    $(document).on('click', '#home', function() {
         startUp();
     });
   });
 </script>
 
 <style>
-.butn, .jumbotron {
-    cursor: pointer;
-}
-#viewer {
-margin-bottom: 50px;
-}
-.emph {
-    background-color: #eeeeee;
-}
+
 </style>
 
 </head>
 
 <body onload="document.location.hash ? naviGate(document.location.hash.charAt(3)) : startUp();">
-    
+<a name="top"></a>
+<div id="nav">
+  <ul>
+    <li><span class="butn" id="home">Home</span></li>
+    <li><span class="butn" id="pt0">Directions & Parking</span></li>
+    <li><span class="butn" id="pt1">Hotels</span></li>
+    <li><span class="butn" id="pt2">Local Attractions and Transportation</span></li>
+    <li><span class="butn" id="pt3">About Us</span></li>
+    <li><span class="butn" id="pt4">Who's Who</span></li>
+    <li><span class="butn" id="pt5">FAQ</span></li>
+    <li><span class="butn" id="pt6">R.S.V.P.</span></li>
+  </ul>
+</div>
+
+<div id="header">
+  <img src="sky.JPG" alt="cloudy sky header image" />
+</div>
+
 <div class="container">
-
-<div class="jumbotron">
-  <h1>The Wedding of Zannie and Corey</h1>
-</div>
-
-<div class="row">
-  <div class="col-sm-3">
-    <table id="nav" class="table table-condensed table-hover">
-        <tr><td id="pt0" class="butn">Directions & Parking</td></tr>
-        <tr><td id="pt1" class="butn">Hotels</td></tr>
-        <tr><td id="pt2" class="butn">Local Attractions and Transportation</td></tr>
-        <tr><td id="pt3" class="butn">About Us</td></tr>
-        <tr><td id="pt4" class="butn">Who's Who</td></tr>
-        <tr><td id="pt5" class="butn">FAQ</td></tr>
-        <tr><td id="pt6" class="butn">R.S.V.P.</td></tr>
-    </table>
-  </div>
-  <div class="col-sm-9">
-    <div id="viewer"></div>
-  </div>
-</div>
-
+  <div id="viewer"></div>
 </div>
 
 </body>
