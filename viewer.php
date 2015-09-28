@@ -118,8 +118,10 @@ $pt5 = <<<PT5
   will be outdoors, we suggest you consider wearing a hat. The ceremony will be held on grass, so please choose 
   your shoes accordingly.</dd>
   <dt>Registry?</dt>
-  <dd>We've been grown ups for quite some time now, and we really, really don't need anything. But if you feel 
-  exceptionally compelled, we do plan to register; watch this space!</dd>
+  <dd>We would be so pleased if you made a donation in any amount to one of our favorite organizations! We have 
+  registered for this at <a href="https://thkfl.com/ZestyCrescendo">Thankful</a>, along with some more traditional 
+  items in case you just can't stand not getting us something.
+  </dd>
 </dl>
 PT5;
 
