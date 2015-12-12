@@ -41,7 +41,7 @@ PT0;
 //hotels
 $pt1 = <<<PT1
 <iframe width="600" height="450" frameborder="0" style="border:0" 
-src="https://www.google.com/maps/embed/v1/search?q=hotels%20in%20San%20Rafael%2C%20CA%2C%20United%20States&key=AIzaSyC1d4U6sIJhJS6pjXG44rmflWYGYVDlg6k"></iframe>
+src="https://www.google.com/maps/d/edit?mid=zT6vlfbEBsfE.kPuO3_Y3zcH4&usp=sharing"></iframe>
 PT1;
 
 //local attractions
@@ -100,11 +100,11 @@ $pt4 = <<<PT4
   <dd>Greg and Mary live in Elk Grove, California. Greg is retired from a long career with the State of 
   California; having begun as a schoolbus inspector, he transitioned through various civilian roles in the 
   California Highway Patrol, most recently as a database programmer. His wife Mary is retired from working at the 
-  Sacramento Bee newspaper. They are enjoying a lot of travel around the United States for fun and family events, 
-  as well as various projects at home.</dd>
+  Sacramento Bee newspaper in their advertising department. They are enjoying a lot of travel around the United 
+  States for fun and family events, as well as various fun projects at home.</dd>
   <dt>Paul &amp; Rosalie (Corey's parents)</dt>
-  <dd>Paul and Rosalie split their time between their longtime home in Woburn, Massachusetts, and their 
-  retirement home in St. Augustine, Florida. Paul is retired from a 30 year career in IT. Rosalie is retired from 
+  <dd>Paul and Rosalie split their time between their longtime home in Woburn, Massachusetts and their 
+  second home in St. Augustine, Florida. Paul is retired from a 30 year career in IT. Rosalie is retired from 
   being a teacher and a librarian, in the years she was not a stay at home parent. They enjoy spending time with 
   Corey's sisters Rachel and Abby, Abby's husband Ryan, and their granddaughter Ada, who all live near them in 
   Massachusetts, and spend time enjoying the outdoors with their rescue dog Winnie.</dd>
@@ -117,11 +117,24 @@ $pt5 = <<<PT5
   <dd>We suggest our guests wear cocktail attire, or your "Sunday best." As our ceremony and much of the reception 
   will be outdoors, we suggest you consider wearing a hat. The ceremony will be held on grass, so please choose 
   your shoes accordingly.</dd>
-  <dt>Registry?</dt>
+  <dt>Do you have a registry?</dt>
   <dd>We would be so pleased if you made a donation in any amount to one of our favorite organizations! We have 
   registered for this at <a href="https://thkfl.com/ZestyCrescendo">Thankful</a>, along with some more traditional 
   items in case you just can't stand not getting us something.
   </dd>
+  <dt>What if I have special dietary needs?</dt>
+  <dd>Dinner will be a buffet, so you will be able to pick and choose what you'd like, and we'll try to accommodate
+  common preferences. Please let us know if you have specific dietary concerns, and we will do what we can to 
+  accommodate them.</dd>
+  <dt>Can I take pictures?</dt>
+  <dd>Please do! Watch this space for the best way to share them, which we hope you would like to do. Your photos of
+  the reception in particular will be much appreciated.
+  <br><br>
+  We do ask that you give the professional photographer his space though, and especially during the ceremony, please 
+  consider whether you are blocking someone's view with your camera, most especially the photographer's. We would also
+  like to look out at our friends and family and see your smiling faces, more so than the backs of your phones. We 
+  will be able to share all of the professional images with you at no charge, so we invite you to enjoy the ceremony 
+  without worrying about documenting it.</dd>
 </dl>
 PT5;
 
