@@ -40,8 +40,8 @@ PT0;
 
 //hotels
 $pt1 = <<<PT1
-<iframe width="600" height="450" frameborder="0" style="border:0" 
-src="https://www.google.com/maps/d/edit?mid=zT6vlfbEBsfE.kPuO3_Y3zcH4&usp=sharing"></iframe>
+<iframe width="900" height="600" frameborder="0" style="border:0" 
+src="https://www.google.com/maps/d/embed?mid=zT6vlfbEBsfE.kPuO3_Y3zcH4"></iframe>
 PT1;
 
 //local attractions
