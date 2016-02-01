@@ -127,14 +127,18 @@ $pt5 = <<<PT5
   common preferences. Please let us know if you have specific dietary concerns, and we will do what we can to 
   accommodate them.</dd>
   <dt>Can I take pictures?</dt>
-  <dd>Please do! Watch this space for the best way to share them, which we hope you would like to do. Your photos of
-  the reception in particular will be much appreciated.
+  <dd>Please do! Your photos of the reception in particular will be much appreciated.
   <br><br>
-  We do ask that you give the professional photographer his space though, and especially during the ceremony, please 
-  consider whether you are blocking someone's view with your camera, most especially the photographer's. We would also
-  like to look out at our friends and family and see your smiling faces, more so than the backs of your phones. We 
-  will be able to share all of the professional images with you at no charge, so we invite you to enjoy the ceremony 
-  without worrying about documenting it.</dd>
+  We do ask that you give the professional photographer his space though, and especially during the ceremony, please
+  consider whether you are blocking someone's view with your camera,
+  <a href="http://stevekeegan.com/blog/blog/how-to-prevent-your-guests-from-ruining-your-wedding-photos">most especially
+  the photographer's</a>. We would also like to look out at our friends and family and see your smiling faces, more so
+  than the backs of your phones. We will be able to share all of the professional images with you at no charge, so we
+  invite you to enjoy the ceremony without worrying about documenting it.
+  <br><br>
+  We hope you will share your photos with us and the other guests! We are using WedPics to make it easy:
+<div style="font-family: sans-serif;max-width: 500px;"><div style="background-color: #fff; background-image: url('http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/8d46e71a261eaf86a271812fab09909c.jpg'); width: 500px; height: 716px;"><h2 style="text-align: center; color: #fff; padding: 290px 0 0 0; margin: 0;">USE WEDDING ID: <span style="color: #ff0096">ZannieCorey</span></h2><h3 style="text-align: center; color: #fff; margin: 5px 0; font-size: 18px;">OUR WEDPICS WEBSITE:</h3><h4 style="text-align: center; color: #ff0096; margin: 0; font-size: 16px;"><a href="http://www.wedpics.com/wedding/GIZTSMBUGU4A/album" target="_blank" style="color: #ff0096;text-decoration: none;">www.wedpics.com/wedding/GIZTSMBUGU4A/album</a></h4></div><div style="text-align: center;"><div style="display:inline-block;vertical-align: top;line-height: 10px;"><h3>DOWNLOAD THE APP:</h3></div><div style="display:inline-block;margin-right: -20px;"><a href="https://itunes.apple.com/app/wedpics-wedding-photo-app/id549402355?mt=8" target="_blank" style="text-decoration: none;"><img alt="app store link" src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/9361d4730c5d3be9dd2da5efa3a1bd69.png"></a><a href="https://play.google.com/store/apps/details?id=com.dejami.WedPics&hl=en" target="_blank" style="text-decoration: none;"><img alt="Google Play Store link" src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/6d0f71bb43acb9a0a34d00272e657cc8.png"></a></div><div style="text-align: left;"><img src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/dbfb65375f9a72cbe8ed57d49526a3cf.jpg" style="float: right;"/><h3 style="text-align: left; padding: 65px 10px 0; margin: 0;">FOR DIGITAL CAMERA USERS UPLOAD ON THE WEB AT:</h3><a href="http://www.wedpics.com/wedding/GIZTSMBUGU4A/album" target="_blank" style="color: #ff0096;text-decoration: none;padding-left: 10px; font-weight: bold;">www.wedpics.com/wedding/GIZTSMBUGU4A/album</a></div></div>
+  </dd>
 </dl>
 PT5;
 
