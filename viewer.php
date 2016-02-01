@@ -38,23 +38,28 @@ Street. Turn right onto Mission Street, and proceed as above.</p><br>
 src="https://www.google.com/maps/embed/v1/place?q=Falkirk%20Cultural%20Center%2C%20Mission%20Avenue%2C%20San%20Rafael%2C%20CA%2C%20United%20States&key=AIzaSyC1d4U6sIJhJS6pjXG44rmflWYGYVDlg6k"></iframe>
 PT0;
 
-//hotels
+//hotels & local stuff
 $pt1 = <<<PT1
+<p>If you're looking for things to do in San Francisco while you're here, the
+<a href="http://guides.milespartnership.com/sf/vpg/current/" target="_blank">Official San Francisco Visitors Planning 
+Guide 2015</a> is a great place to start!</p>
+<p>For Zannie & Corey's recommendations for hotels, restaurants, and other points of interest in San Rafael,
+check out the different layers on the map below.</p>
 <iframe width="600" height="450" frameborder="0" style="border:0" 
 src="https://www.google.com/maps/d/edit?mid=zT6vlfbEBsfE.kPuO3_Y3zcH4&usp=sharing"></iframe>
 PT1;
 
-//local attractions
+//transportation
 $pt2 = <<<PT2
-<p><a href="http://guides.milespartnership.com/sf/vpg/current/" target="_blank">
-Official San Francisco Visitors Planning Guide 2015</a></p>
-<p>We recommend traveling around San Francisco by public transportation. The easiest way to pay is with a 
+<p>We recommend traveling around San Francisco proper by public transportation. The easiest way to pay is with a 
 <a href="https://www.clippercard.com">Clipper Card</a>, which you can use on all local transporation systems, 
 including <a href="http://www.sfmta.com/">Muni</a> and <a href="http://www.sfmta.com/getting-around/transit/how-ride/how-to-cable-cars">cable 
 cars</a> to get around San Francisco, <a href="http://www.actransit.org/">AC Transit</a> to get around the East 
 Bay, and <a href="http://www.bart.gov/">BART</a> to get between cities and to the airport.</p>
 <p>For taxi service, we recommend the <a href="http://www.flywheel.com" target="_blank">Flywheel App</a> for iPhone or Android.</p>
-<p><a href="http://www.sanfrancisco.travel/transportation">General Guide to Bay Area Transportation</a></p>
+<p>For more information, check out the <a href="http://www.sanfrancisco.travel/transportation">Guide to Bay Area Transportation</a>.</p>
+<p>Unfortunately, the North Bay (including San Rafael) is not well served by public transportation, so most people 
+will probably want to have access to a car.</p>
 PT2;
 
 //about us

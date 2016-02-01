@@ -78,8 +78,8 @@ $(document).ready(function() {
   <ul>
     <li><span class="butn" id="home">Home</span></li>
     <li><span class="butn" id="pt0">Directions & Parking</span></li>
-    <li><span class="butn" id="pt1">Hotels</span></li>
-    <li><span class="butn" id="pt2">Local Attractions and Transportation</span></li>
+    <li><span class="butn" id="pt1">Hotels & San Rafael Amenities</span></li>
+    <li><span class="butn" id="pt2">Bay Area Transportation</span></li>
     <li><span class="butn" id="pt3">About Us</span></li>
     <li><span class="butn" id="pt4">Who's Who</span></li>
     <li><span class="butn" id="pt5">FAQ</span></li>
