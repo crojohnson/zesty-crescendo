@@ -32,10 +32,10 @@ function startUp() {
     x += "<div class='cent'><h1>Zannie &amp; Corey</h1></div>";
     x += "<div class='cent'><h3>are getting hitched!</h3></div><br />";
     x += "<img src='heroshot.jpg' class='img-responsive' id='heroshot' alt='portrait in mexico' />";
-    x += "<p>Welcome! We hope you will be able to join us to celebrate our marriage on May 21st at 5pm. ";
-    x += "We will have a brief ceremony in the rose garden, followed by dinner and drinks on the veranda. ";
-    x += "We hope you will find this site informative--but it is still in progress, so please check back ";
-    x += "again as the date approaches to get the latest!</p>";
+    x += "<p>Welcome! We hope you will be able to join us to celebrate our marriage on May 21st at 5pm.</p>";
+    x += "<p>We are thrilled to be able to celebrate at the <a href="http://www.falkirkculturalcenter.org/">Falkirk ";
+    x += "Cultural Center</a>, an 1888 mansion in San Rafael, operated by their Parks department. " ;
+    x += "We will have a brief ceremony in the rose garden, followed by dinner and drinks on the veranda.</p>";
     document.getElementById("viewer").innerHTML = x;
     $(".emph").removeClass('emph');
     document.location.hash = "";
