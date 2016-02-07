@@ -136,7 +136,7 @@ $pt5 = <<<PT5
   <br><br>
   We do ask that you give the professional photographer his space though, and especially during the ceremony, please
   consider whether you are blocking someone's view with your camera,
-  <a href="http://stevekeegan.com/blog/blog/how-to-prevent-your-guests-from-ruining-your-wedding-photos">most especially
+  <a href="http://stevekeegan.com/blog/blog/how-to-prevent-your-guests-from-ruining-your-wedding-photos">including
   the photographer's</a>. We would also like to look out at our friends and family and see your smiling faces, more so
   than the backs of your phones. We will be able to share all of the professional images with you at no charge, so we
   invite you to enjoy the ceremony without worrying about documenting it.
