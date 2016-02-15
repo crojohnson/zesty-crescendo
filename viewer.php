@@ -20,41 +20,50 @@ $pt0 = <<<PT0
 </div>
 </div>
 <br><br>
-<p>Parking is available in the adjoining lot just west (left) of the mansion, exactly at the interesction of 
-Mission Avenue and E Street. Additionally, the driveway circling the mansion is available for parking on the side 
-across from the mansion, but we ask that you reserve this area for those with mobility challenges.</p>
-<p>In our experience, Google's directions have been accurate; see the map below to get exact directions from your 
-house or hotel. Otherwise:
-<br><br>
-From San Francisco, take 101 North to exit 452 towards Central San Rafael, and continue onto Irwin Street. After 
-four blocks, turn left onto Mission Street. Stay on Mission as it jogs to the left at B Street. After another block 
-and a half you will find the parking lot on the right, just past the mansion.
-<br><br>
-From the East Bay, take 580 West until it merges into 101 North, and proceed as above.
-<br><br>
-From north of San Rafael, take 101 South to exit 452 towards Central San Rafael, and continue onto Hetherton 
-Street. Turn right onto Mission Street, and proceed as above.</p><br>
+<dl>
+  <dt>Parking</dt>
+  <dd>Parking is available in the adjoining lot just west (left) of the mansion, exactly at the interesction of 
+    Mission Avenue and E Street. Additionally, the driveway circling the mansion is available for parking on the side 
+    across from the mansion, but we ask that you reserve this area for those with mobility challenges.</dd>
+  <dt>Directions</dt>
+  <dd>In our experience, Google's directions have been accurate; see the map below to get exact directions from your 
+    house or hotel. Otherwise:
+    <br><br>
+    From San Francisco, take 101 North to exit 452 towards Central San Rafael, and continue onto Irwin Street. After 
+    four blocks, turn left onto Mission Street. Stay on Mission as it jogs to the left at B Street. After another block 
+    and a half you will find the parking lot on the right, just past the mansion.
+    <br><br>
+    From the East Bay, take 580 West until it merges into 101 North, and proceed as above.
+    <br><br>
+    From north of San Rafael, take 101 South to exit 452 towards Central San Rafael, and continue onto Hetherton 
+    Street. Turn right onto Mission Street, and proceed as above.</dd>
+</dl>
 <iframe width="600" height="450" frameborder="0" style="border:0" 
 src="https://www.google.com/maps/embed/v1/place?q=Falkirk%20Cultural%20Center%2C%20Mission%20Avenue%2C%20San%20Rafael%2C%20CA%2C%20United%20States&key=AIzaSyC1d4U6sIJhJS6pjXG44rmflWYGYVDlg6k"></iframe>
 PT0;
 
-//hotels
+//hotels & local stuff
 $pt1 = <<<PT1
+<p>If you're looking for things to do in San Francisco while you're here, check out the
+<a href="http://guides.milespartnership.com/sf/vpg/current/" target="_blank">Official San Francisco Visitors Planning 
+Guide 2015</a> for lots of information about local attractions.</p>
+<p>For Zannie & Corey's recommendations for hotels, restaurants, and other amenities in San Rafael, check out the 
+different layers on the map below.</p>
 <iframe width="600" height="450" frameborder="0" style="border:0" 
 src="https://www.google.com/maps/d/edit?mid=zT6vlfbEBsfE.kPuO3_Y3zcH4&usp=sharing"></iframe>
 PT1;
 
-//local attractions
+//transportation
 $pt2 = <<<PT2
-<p><a href="http://guides.milespartnership.com/sf/vpg/current/" target="_blank">
-Official San Francisco Visitors Planning Guide 2015</a></p>
-<p>We recommend traveling around San Francisco by public transportation. The easiest way to pay is with a 
+<p>For getting around around San Francisco proper, we recommend public transportation. The easiest way to pay is with a 
 <a href="https://www.clippercard.com">Clipper Card</a>, which you can use on all local transporation systems, 
 including <a href="http://www.sfmta.com/">Muni</a> and <a href="http://www.sfmta.com/getting-around/transit/how-ride/how-to-cable-cars">cable 
 cars</a> to get around San Francisco, <a href="http://www.actransit.org/">AC Transit</a> to get around the East 
-Bay, and <a href="http://www.bart.gov/">BART</a> to get between cities and to the airport.</p>
+Bay, and <a href="http://www.bart.gov/">BART</a> to get between cities and to the airports.</p>
 <p>For taxi service, we recommend the <a href="http://www.flywheel.com" target="_blank">Flywheel App</a> for iPhone or Android.</p>
-<p><a href="http://www.sanfrancisco.travel/transportation">General Guide to Bay Area Transportation</a></p>
+<p>For more information, check out the <a href="http://www.sanfrancisco.travel/transportation">Guide to Bay Area Transportation</a>.</p>
+<p>Unfortunately, the North Bay (including San Rafael) is not well served by public transportation, so most people 
+will probably want to have access to a car.</p>
 PT2;
 
 //about us
@@ -90,7 +99,7 @@ $pt4 = <<<PT4
   <dt>Talia (Flower Girl)</dt>
   <dd>Corey is Talia's popeye. (It was supposed to be papa, but Talia had her own way of pronouncing it, and it 
   stuck.) She lives in Richmond, California with her mama Lauren, her brother Levi, and Levi's dad Larry, and 
-  also with her mommy Amy and Amy's partner Kris. She likes playing Pretty, Pretty Princess, gymnastics, and 
+  also with her mommy Amy and Amy's partner Chris. She likes playing Pretty, Pretty Princess, gymnastics, and 
   jumping on her trampoline.</dd>
   <dt>Becky (Zannie's mom)</dt>
   <dd>Becky lives in Orange, California and is wrapping up a long career in nursing. Having done bedside nursing 
@@ -107,16 +116,16 @@ $pt4 = <<<PT4
   second home in St. Augustine, Florida. Paul is retired from a 30 year career in IT. Rosalie is retired from 
   being a teacher and a librarian, in the years she was not a stay at home parent. They enjoy spending time with 
   Corey's sisters Rachel and Abby, Abby's husband Ryan, and their granddaughter Ada, who all live near them in 
-  Massachusetts, and spend time enjoying the outdoors with their rescue dog Winnie.</dd>
+  Massachusetts, and enjoy time in the outdoors with their rescue dog Winnie.</dd>
 PT4;
 
 //faq
 $pt5 = <<<PT5
 <dl>
   <dt>What should I wear?</dt>
-  <dd>We suggest our guests wear cocktail attire, or your "Sunday best." As our ceremony and much of the reception 
-  will be outdoors, we suggest you consider wearing a hat. The ceremony will be held on grass, so please choose 
-  your shoes accordingly.</dd>
+  <dd>We suggest you wear cocktail attire, or your "Sunday best." As our ceremony and much of the reception 
+  will be outdoors, we suggest you consider wearing a hat. The ceremony and some of the reception  will be held on 
+  grass, so please choose your shoes accordingly.</dd>
   <dt>Do you have a registry?</dt>
   <dd>We would be so pleased if you made a donation in any amount to one of our favorite organizations! We have 
   registered for this at <a href="https://thkfl.com/ZestyCrescendo">Thankful</a>, along with some more traditional 
@@ -127,14 +136,18 @@ $pt5 = <<<PT5
   common preferences. Please let us know if you have specific dietary concerns, and we will do what we can to 
   accommodate them.</dd>
   <dt>Can I take pictures?</dt>
-  <dd>Please do! Watch this space for the best way to share them, which we hope you would like to do. Your photos of
-  the reception in particular will be much appreciated.
+  <dd>Please do! Your photos of the reception in particular will be much appreciated.
   <br><br>
-  We do ask that you give the professional photographer his space though, and especially during the ceremony, please 
-  consider whether you are blocking someone's view with your camera, most especially the photographer's. We would also
-  like to look out at our friends and family and see your smiling faces, more so than the backs of your phones. We 
-  will be able to share all of the professional images with you at no charge, so we invite you to enjoy the ceremony 
-  without worrying about documenting it.</dd>
+  We do ask that you give the professional photographer his space though, and especially during the ceremony, please
+  consider whether you are blocking someone's view with your camera (<a 
+  href="http://stevekeegan.com/blog/blog/how-to-prevent-your-guests-from-ruining-your-wedding-photos">including
+  the photographer's</a>). We would also like to look out at our friends and family and see your smiling faces, rather
+  than the backs of your phones. We will be able to share all of the professional images with you at no charge, so we
+  invite you to enjoy the ceremony without worrying about documenting it.
+  <br><br>
+  That said, we do hope you will share your photos with us and the other guests! We are using WedPics to make it easy:
+<div style="font-family: sans-serif;max-width: 500px;"><div style="background-color: #fff; background-image: url('http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/8d46e71a261eaf86a271812fab09909c.jpg'); width: 500px; height: 716px;"><h2 style="text-align: center; color: #fff; padding: 290px 0 0 0; margin: 0;">USE WEDDING ID: <span style="color: #ff0096">ZannieCorey</span></h2><h3 style="text-align: center; color: #fff; margin: 5px 0; font-size: 18px;">OUR WEDPICS WEBSITE:</h3><h4 style="text-align: center; color: #ff0096; margin: 0; font-size: 16px;"><a href="http://www.wedpics.com/wedding/GIZTSMBUGU4A/album" target="_blank" style="color: #ff0096;text-decoration: none;">www.wedpics.com/wedding/GIZTSMBUGU4A/album</a></h4></div><div style="text-align: center;"><div style="display:inline-block;vertical-align: top;line-height: 10px;"><h3>DOWNLOAD THE APP:</h3></div><div style="display:inline-block;margin-right: -20px;"><a href="https://itunes.apple.com/app/wedpics-wedding-photo-app/id549402355?mt=8" target="_blank" style="text-decoration: none;"><img alt="app store link" src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/9361d4730c5d3be9dd2da5efa3a1bd69.png"></a><a href="https://play.google.com/store/apps/details?id=com.dejami.WedPics&hl=en" target="_blank" style="text-decoration: none;"><img alt="Google Play Store link" src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/6d0f71bb43acb9a0a34d00272e657cc8.png"></a></div><div style="text-align: left;"><img src="http://b55c4c37b2ccd150548a-ba0da4af74db9f9dcab04158fe0a2716.r70.cf1.rackcdn.com/dbfb65375f9a72cbe8ed57d49526a3cf.jpg" style="float: right;"/><h3 style="text-align: left; padding: 65px 10px 0; margin: 0;">FOR DIGITAL CAMERA USERS UPLOAD ON THE WEB AT:</h3><a href="http://www.wedpics.com/wedding/GIZTSMBUGU4A/album" target="_blank" style="color: #ff0096;text-decoration: none;padding-left: 10px; font-weight: bold;">www.wedpics.com/wedding/GIZTSMBUGU4A/album</a></div></div>
+  </dd>
 </dl>
 PT5;
 
