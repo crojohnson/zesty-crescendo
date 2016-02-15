@@ -33,7 +33,7 @@ function startUp() {
     x += "<div class='cent'><h3>are getting hitched!</h3></div><br />";
     x += "<img src='heroshot.jpg' class='img-responsive' id='heroshot' alt='portrait in mexico' />";
     x += "<p>Welcome! We hope you will be able to join us to celebrate our marriage on May 21st at 5pm.</p>";
-    x += "<p>We are thrilled to be able to celebrate at the <a href="http://www.falkirkculturalcenter.org/">Falkirk ";
+    x += "<p>We are thrilled to be able to celebrate at the <a href='http://www.falkirkculturalcenter.org/'>Falkirk ";
     x += "Cultural Center</a>, an 1888 mansion in San Rafael, operated by their Parks department. " ;
     x += "We will have a brief ceremony in the rose garden, followed by dinner and drinks on the veranda.</p>";
     x += "<p>Please use the links above to learn more!";
