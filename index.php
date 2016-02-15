@@ -36,6 +36,7 @@ function startUp() {
     x += "<p>We are thrilled to be able to celebrate at the <a href="http://www.falkirkculturalcenter.org/">Falkirk ";
     x += "Cultural Center</a>, an 1888 mansion in San Rafael, operated by their Parks department. " ;
     x += "We will have a brief ceremony in the rose garden, followed by dinner and drinks on the veranda.</p>";
+    x += "<p>Please use the links above to learn more!";
     document.getElementById("viewer").innerHTML = x;
     $(".emph").removeClass('emph');
     document.location.hash = "";
