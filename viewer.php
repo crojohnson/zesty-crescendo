@@ -23,8 +23,9 @@ $pt0 = <<<PT0
 <dl>
   <dt>Parking</dt>
   <dd>Parking is available in the adjoining lot just west (left) of the mansion, exactly at the interesction of 
-    Mission Avenue and E Street. Additionally, the driveway circling the mansion is available for parking on the side 
-    across from the mansion, but we ask that you reserve this area for those with mobility challenges.</dd>
+    Mission Avenue and E Street, which dead ends at the lot. Additionally, the driveway circling the mansion is 
+    available for parking on the side across from the mansion, but we ask that you reserve this area for those with 
+    mobility challenges.</dd>
   <dt>Directions</dt>
   <dd>In our experience, Google's directions have been accurate; see the map below to get exact directions from your 
     house or hotel. Otherwise:
@@ -59,7 +60,8 @@ $pt2 = <<<PT2
 including <a href="http://www.sfmta.com/">Muni</a> and <a href="http://www.sfmta.com/getting-around/transit/how-ride/how-to-cable-cars">cable 
 cars</a> to get around San Francisco, <a href="http://www.actransit.org/">AC Transit</a> to get around the East 
 Bay, and <a href="http://www.bart.gov/">BART</a> to get between cities and to the airports.</p>
-<p>For taxi service, we recommend the <a href="http://www.flywheel.com" target="_blank">Flywheel App</a> for iPhone or Android.</p>
+<p>For taxi service, we recommend the <a href="http://www.flywheel.com" target="_blank">Flywheel App</a> for iPhone 
+or Android. Their availability is limited in San Rafael, but plentiful in San Francisco.</p>
 <p>For more information, check out the <a href="http://www.sanfrancisco.travel/transportation">Guide to Bay Area Transportation</a>.</p>
 <p>Unfortunately, the North Bay (including San Rafael) is not well served by public transportation, so most people 
 will probably want to have access to a car.</p>
@@ -104,36 +106,36 @@ $pt4 = <<<PT4
   <dd>Becky lives in Orange, California and is wrapping up a long career in nursing. Having done bedside nursing 
   for over 20 years, more recently she has transitioned into administrative nursing roles. She is an animal lover 
   and a prolific knitter.</dd>
-  <dt>Greg &amp; Mary (Zannie's dad and his wife)</dt>
+  <dt>Greg (Zannie's dad) &amp; Mary</dt>
   <dd>Greg and Mary live in Elk Grove, California. Greg is retired from a long career with the State of 
   California; having begun as a schoolbus inspector, he transitioned through various civilian roles in the 
-  California Highway Patrol, most recently as a database programmer. His wife Mary is retired from working at the 
+  California Highway Patrol, most recently as a database programmer. Mary is retired from working at the 
   Sacramento Bee newspaper in their advertising department. They are enjoying a lot of travel around the United 
-  States for fun and family events, as well as various fun projects at home.</dd>
+  States for fun and family events, as well as various DIY projects at home.</dd>
   <dt>Paul &amp; Rosalie (Corey's parents)</dt>
   <dd>Paul and Rosalie split their time between their longtime home in Woburn, Massachusetts and their 
   second home in St. Augustine, Florida. Paul is retired from a 30 year career in IT. Rosalie is retired from 
   being a teacher and a librarian, in the years she was not a stay at home parent. They enjoy spending time with 
   Corey's sisters Rachel and Abby, Abby's husband Ryan, and their granddaughter Ada, who all live near them in 
-  Massachusetts, and enjoy time in the outdoors with their rescue dog Winnie.</dd>
+  Massachusetts, and enjoy time in the outdoors with their rescue dog Winnie. They also delight in their 
+  California grandkids, Talia and Levi.</dd>
 PT4;
 
 //faq
 $pt5 = <<<PT5
 <dl>
   <dt>What should I wear?</dt>
-  <dd>We suggest you wear cocktail attire, or your "Sunday best." As our ceremony and much of the reception 
-  will be outdoors, we suggest you consider wearing a hat. The ceremony and some of the reception  will be held on 
-  grass, so please choose your shoes accordingly.</dd>
+  <dd>We suggest you wear cocktail attire, or dressy casual if that's more comfortable for you. As our ceremony and 
+  much of the reception will be outdoors, we suggest you consider wearing a hat and sunscreen. The ceremony and some 
+  of the reception  will be held on grass, so please choose your shoes accordingly.</dd>
   <dt>Do you have a registry?</dt>
   <dd>We would be so pleased if you made a donation in any amount to one of our favorite organizations! We have 
   registered for this at <a href="https://thkfl.com/ZestyCrescendo">Thankful</a>, along with some more traditional 
   items in case you just can't stand not getting us something.
   </dd>
   <dt>What if I have special dietary needs?</dt>
-  <dd>Dinner will be a buffet, so you will be able to pick and choose what you'd like, and we'll try to accommodate
-  common preferences. Please let us know if you have specific dietary concerns, and we will do what we can to 
-  accommodate them.</dd>
+  <dd>Dinner will be a buffet, so you will be able to pick and choose what you'd like. Avoiding gluten will be easy. 
+  The main dish will be sustainable wild-caught fish; let us know if you would prefer a vegan alternative.</dd>
   <dt>Can I take pictures?</dt>
   <dd>Please do! Your photos of the reception in particular will be much appreciated.
   <br><br>
@@ -144,11 +146,11 @@ $pt5 = <<<PT5
   than the backs of your phones. We will be able to share all of the professional images with you at no charge, so we
   invite you to enjoy the ceremony without worrying about documenting it.
   <br><br>
-  That said, we do hope you will share your photos with us and the other guests! We are using WedPics to make it easy:<br>
-  <a href="https://www.wedpics.com/wedding/GIZTSMBUGU4A/album">Click HERE to access our WedPics album</a><br><br>
-  <a href="https://itunes.apple.com/us/app/wedpics-wedding-photo-app/id549402355?mt=8">Click HERE for the iOS WedPics app</a><br><br>
-  <a href="https://play.google.com/store/apps/details?id=com.dejami.WedPics">Click HERE for the Android WedPics app</a><br><br>
-  <b>(The code for our wedding is ZannieCorey)</b>
+  That said, we do hope you will share your photos with us and the other guests! We are using WedPics to make it easy:<br><br>
+  <a href="https://www.wedpics.com/wedding/GIZTSMBUGU4A/album">Our WedPics album</a><br>
+  <a href="https://itunes.apple.com/us/app/wedpics-wedding-photo-app/id549402355?mt=8">iOS WedPics app</a><br>
+  <a href="https://play.google.com/store/apps/details?id=com.dejami.WedPics">Android WedPics app</a><br><br>
+  WeddingCode: ZannieCorey
   </dd>
 </dl>
 PT5;
