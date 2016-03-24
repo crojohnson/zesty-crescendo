@@ -152,6 +152,9 @@ $pt5 = <<<PT5
   <a href="https://play.google.com/store/apps/details?id=com.dejami.WedPics">Android WedPics app</a><br><br>
   WeddingCode: ZannieCorey
   </dd>
+  <dt>Can I bring the kids?</dt>
+  <dd>With the exception of immediate family members, we’d like our wedding day to be an adult-only celebration.
+  Thanks for your understanding.</dd>
 </dl>
 PT5;
 
