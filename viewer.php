@@ -167,4 +167,5 @@ PT6;
 $views = array($pt0,$pt1,$pt2,$pt3,$pt4,$pt5,$pt6);
 
 echo $views[$view];
+stupid mistake don't merge
 ?>
