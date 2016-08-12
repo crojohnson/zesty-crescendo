@@ -155,6 +155,8 @@ $pt5 = <<<PT5
   <dt>Can I bring the kids?</dt>
   <dd>With the exception of immediate family members, we’d like our wedding day to be an adult-only celebration.
   Thanks for your understanding.</dd>
+  <dt>What's the RSVP date?</dt>
+  <dd>Please let us know by April 23rd. Thanks so much!</dd>
 </dl>
 PT5;
 
